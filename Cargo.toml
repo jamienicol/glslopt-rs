@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Jamie Nicol <jnicol@mozilla.com>"]
 edition = "2018"
 license = "MIT"
+description = "Optimizes GLSL shader code"
+keywords = ["opengl", "gl", "gles", "glsl", "shader"]
+repository = "https://github.com/jamienicol/glslopt-rs"
 
 [build-dependencies]
 bindgen = { version = "0.53", default-features = false, features = ["runtime"] } # disable `logging` to reduce code size
